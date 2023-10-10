@@ -32,7 +32,7 @@ pip install zxcvbn
 
 3. Run the script using:
 ```
-python password_strength_checker.py.
+python Test-psd-strength.py
 ```
 
 4. Follow the prompts to enter the number of passwords to test, the path to the weak wordlist file (optional), and the path to the banned wordlist file (optional).
@@ -42,12 +42,12 @@ Enter the passwords to test when prompted.
 
 Example:
 ```
-$ python password_strength_checker.py
+$ python Test-psd-strength.py
 Enter the number of passwords to test (enter 0 to exit): 1
-Enter the path to the weak wordlist file (leave blank for default):
-Enter the path to the banned wordlist file (leave blank for default):
-Enter a password: Asdfg@123456
-Strong: Password meets all the requirements. Score: 3/4
+Enter the path to the weak wordlist file (leave blank for default): 
+Enter the path to the banned wordlist file (leave blank for default): 
+Enter a password: ZXC@1234vbnm
+Strong: Password meets all the requirements. Score: 3/4  
 Enter the number of passwords to test (enter 0 to exit):
-Thank you for using the Password Strength Checker.
+Thank you for using the Test Password Strength.
 ```
