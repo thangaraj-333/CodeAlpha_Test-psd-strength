@@ -22,8 +22,7 @@ This is a Python script that allows you to check the strength of passwords. It u
 
 1. Clone the repository or download the script file:
 ```
-git clone https://github.com/Sharma-IT/Password-Strength-Checker.git
-cd Password-Strength-Checker
+git clone https://github.com/thangaraj-333/CodeAlpha_Test-psd-strength
 ```
 
 2. Install the zxcvbn library by running the following in your terminal:
